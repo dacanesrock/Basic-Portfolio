@@ -29,8 +29,8 @@ p {
     padding: 50px;
     flex: 1;
     display: flex;
-    flex-direction: row;
-    min-height: 100vh;
+    /*flex-direction: row;*/
+    /*min-height: 100vh;*/
 }
 /*end main page style*/
 
@@ -103,6 +103,7 @@ p {
 	margin: 10px 5px 10px 0px;
 	border-radius: 25px;
 	border: 1px solid #dddddd;
+	height: 390px;
 }
 
 .main-content h1 {
@@ -118,8 +119,8 @@ p {
 
 .profile-pic {
 	float: left;
-	padding-right: 25px;
-	padding-bottom: 25px;
+	padding: 25px;
+	border-radius: 50%;
 }
 /*end main content*/
 
@@ -132,6 +133,7 @@ p {
 	margin: 10px 5px 10px 0px;
 	border-radius: 25px;
 	border: 1px solid #dddddd;
+	height: 450px;
 }
 
 .contact-me h1 {
@@ -215,6 +217,10 @@ input[type=textarea] {
 	text-align: center;
 }
 
+.portfolio-circle {
+	border-radius: 50%;
+}
+
 .portfolio-icon {
 	padding: 10px;
 	display: inline-block;
@@ -258,6 +264,7 @@ input[type=textarea] {
 	margin: 10px 0px;
 	border-radius: 25px;
 	border: 1px solid #dddddd;
+	height: 130px;
 }
 
 .sidebar h2 {
@@ -274,6 +281,8 @@ input[type=textarea] {
 	width: 200px;
 	margin: 0 auto;
 	text-align: center;
+	justify-content: space-between;
+	display: flex;
 }
 
 .sidebar li {
